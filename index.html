@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta property="og:title" content="Order Of Mass">
+<meta property="og:description" content=".">
+<meta property="og:image" content="https://orderofmass.com/public/media/images/thumbnail.png">
+<meta property="og:image:width" content="1205">
+<meta property="og:image:height" content="823">
+<meta property="og:url" content="https://orderofmass.com">
+<meta property="og:type" content="website">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DMD  @ Perrin Research</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!--link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"-->
+  <!--link rel="stylesheet" href="css/sidepanel.css"-->
+  <link rel="stylesheet" href="media/css/site.css">
+
+  <style>
+     .navbar-nav.ml-auto.bg-white.text-secondary li a {
+	 color:#AAB2BD;
+     }
+     .navbar-nav.ml-auto.bg-white.text-secondary li.active a {
+         color:#4FC1E9;
+     }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fff;">
+  <a class="navbar-brand" style="color:#A0D468;font-weight:normal" href="#"><b>DMD</b></a>
+  <!--a class="navbar-brand" style="color:#A0D468;font-weight:bold" href="#">DMD</a-->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav2" aria-controls="navbarNav2" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav2">
+    <ul class="navbar-nav ml-auto bg-white text-secondary">
+      <li class="nav-item active" id="menuHome">
+	      <a class="nav-link" href="index.html">Home</a> <!--span class="sr-only">(current)</span></a-->
+      </li>
+      <li class="nav-item" id="menuBackground">
+        <a class="nav-link" href="">Background</a>
+      </li>
+      <li class="nav-item" id="menuDystrophin">
+        <a class="nav-link" href="">Dystrophin</a>
+      </li>
+      <li class="nav-item" id="menuTreatment">
+        <a class="nav-link" href="">Treatments</a>
+      </li>
+      <li class="nav-item" id="menuProgression">
+        <a class="nav-link" href="">Disease Progression</a>
+      </li>
+      <li class="nav-item" id="menuLogin">
+        <a class="nav-link" href="#">Login</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+<div class="pad-25x100" style="text-align:center">
+
+<div class='centerButtons' id='mainPage'>
+
+   <!--div class='scenarioDescription'>
+       <div class='info' style="width:90%;hight:200px;background-color:#E6E9Ed;margin:auto;color:#656D78;text-align:left;border-radius:10px;padding:10px;margin-top:20px;">
+          <span>
+             <b>Home</b>. 
+          </span>
+       </div>
+
+   </div-->
+</div>
+
+</body>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <!--script src="/js/jquery-3.4.1.min.js"></script-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+     <script type='module' src='media/js/main.js'></script>
+    <!--script>
+        function loadHome(){
+            return(`
+                <div class='scenarioDescription'>
+                    <div class='info' style="width:90%;hight:200px;background-color:#E6E9Ed;margin:auto;color:#656D78;text-align:left;border-radius:10px;padding:10px;margin-top:20px;">
+                        <span>
+                            <b>Home</b>.
+                        </span>
+                    </div>
+                </div>
+           `);
+	}		    
+
+        function loadBackground(){
+            return(`
+                <div class='scenarioDescription'>
+                    <div class='info' style="width:90%;hight:200px;background-color:#E6E9Ed;margin:auto;color:#656D78;text-align:left;border-radius:10px;padding:10px;margin-top:20px;">
+                        <span>
+                            <b>Background</b>.
+                        </span>
+                    </div>
+                </div>
+           `);
+        }
+
+        function loadDystrophin(){
+            return(`
+                <div class='scenarioDescription'>
+                    <div class='info' style="width:90%;hight:200px;background-color:#E6E9Ed;margin:auto;color:#656D78;text-align:left;border-radius:10px;padding:10px;margin-top:20px;">
+                        <span>
+                            <b>Dystrophin</b>.
+                        </span>
+                    </div>
+                </div>
+           `);
+        }
+
+        function loadTreatment(){
+            return(`
+                <div class='scenarioDescription'>
+                    <div class='info' style="width:90%;hight:200px;background-color:#E6E9Ed;margin:auto;color:#656D78;text-align:left;border-radius:10px;padding:10px;margin-top:20px;">
+                        <span>
+                            <b>Treatment</b>.
+                        </span>
+                    </div>
+                </div>
+           `);
+        }
+
+        function loadProgression(){
+            return(`
+                <div class='scenarioDescription'>
+                    <div class='info' style="width:90%;hight:200px;background-color:#E6E9Ed;margin:auto;color:#656D78;text-align:left;border-radius:10px;padding:10px;margin-top:20px;">
+                        <span>
+                            <b>Progression</b>.
+                        </span>
+                    </div>
+                </div>
+           `);
+        }
+
+
+        $(document).ready(function() {
+            $( ".ml-auto .nav-item" ).bind( "click", function(event) {
+                event.preventDefault();
+                var clickedItem = $( this );
+                $( ".ml-auto .nav-item" ).each( function() {
+                    $( this ).removeClass( "active" );
+                });
+                clickedItem.addClass( "active" );
+                console.log('New This: ',$( this ).text());
+		let contextId = $( this ).text();
+		$('#mainPage').html('');
+		$('#mainPage').html(mainPageContext(contextId));
+            });
+        });
+
+        function mainPageContext(context){
+            console.log('Preping for ',context);
+            console.log(context.includes('Background'));
+            if(context.includes('Home')){
+                return loadHome();
+            }
+            if(context.includes('Background')){
+		console.log('Returning background');
+                return(loadBackground());
+            }
+            if(context.includes('Dystrophin')){
+                return loadDystrophin();
+            }
+            if(context.includes('Treatment')){
+                return loadTreatment();
+            }
+            if(context.includes('Progression')){
+                return loadProgression();
+            }
+        }
+
+        $('#mainPage').html(loadHome());
+    </script-->
+
+</html>
